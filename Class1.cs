@@ -43,6 +43,7 @@ namespace stardewvalleyMod
             helper.Events.Player.Warped += getHealthOverTimeInSauna;
             helper.Events.GameLoop.DayStarted += helpWateringCrops;
             helper.Events.Player.Warped += warpOnFarm;
+            helper.Events.GameLoop.DayStarted += autoPet;
         }
 
 
@@ -116,7 +117,22 @@ namespace stardewvalleyMod
 
             }
 
+            
+        }
 
+        private autoPet(object? sender, DayStartedEventArgs e)
+        {
+            foreach (var building in Game1.getFarm().buildings)
+            {
+                if (building.indoors.Value is StardewValley.AnimalHouse house)
+                {
+                    foreach (var animal in house.animals.Values)
+                    {
+                        animal.pet(Game1.player, true);
+                        Game1.showGlobalMessage("Pet autoPetted!");
+                    }
+                }
+            }
         }
 
 
