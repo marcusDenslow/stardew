@@ -1,0 +1,10 @@
+{
+    "Name": "villMod",
+    "Author": "Marcus Allen Denslow",
+    "Version": "1.0.0",
+    "Description": "first mod",
+    "UniqueID": "Marcus.villMod",
+    "EntryDll": "stardewvalleyMod.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": []
+}

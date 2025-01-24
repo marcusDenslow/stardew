@@ -1,0 +1,10 @@
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\bin\Debug\net6.0\stardewvalleyMod.deps.json
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\bin\Debug\net6.0\stardewvalleyMod.dll
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\bin\Debug\net6.0\stardewvalleyMod.pdb
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\obj\Debug\net6.0\stardewvalleyMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\obj\Debug\net6.0\stardewvalleyMod.AssemblyInfoInputs.cache
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\obj\Debug\net6.0\stardewvalleyMod.AssemblyInfo.cs
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\obj\Debug\net6.0\stardewvalleyMod.csproj.CoreCompileInputs.cache
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\obj\Debug\net6.0\stardewvalleyMod.dll
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\obj\Debug\net6.0\stardewvalleyMod.pdb
+C:\Users\marcu\source\repos\stardewvalleyMod\stardewvalleyMod\obj\Debug\net6.0\stardewvalleyMod.csproj.AssemblyReference.cache
