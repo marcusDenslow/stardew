@@ -41,7 +41,7 @@ namespace stardewvalleyMod
             helper.Events.GameLoop.DayStarted += BirthdayReminders;
             helper.Events.GameLoop.DayStarted += RemindPlayerOfSeasonalCrops;
             helper.Events.Player.Warped += getHealthOverTimeInSauna;
-            halla
+            halla bruh
         }
 
 
