@@ -41,7 +41,8 @@ namespace stardewvalleyMod
             helper.Events.GameLoop.DayStarted += BirthdayReminders;
             helper.Events.GameLoop.DayStarted += RemindPlayerOfSeasonalCrops;
             helper.Events.Player.Warped += getHealthOverTimeInSauna;
-            halla bruh
+            helper.Events.GameLoop.DayStarted += helpWateringCrops;
+            helper.Events.Player.Warped += warpOnFarm;
         }
 
 
@@ -60,19 +61,19 @@ namespace stardewvalleyMod
 
         private void RemindPlayerOfSeasonalCrops(object? sender, DayStartedEventArgs e)
         {
-            if (Game1.currentSeason == "fall")
+            if (Game1.currentSeason == "fall" && Game1.dayOfMonth == 1)
             {
                 Game1.showGlobalMessage("It's fall. Don't forget to buy the seasonal Items");
             }
-            else if (Game1.currentSeason == "summer")
+            else if (Game1.currentSeason == "summer" && Game1.dayOfMonth == 1)
             {
                 Game1.showGlobalMessage("It's summer. Don't forget to buy the seasonal Items");
             }
-            else if (Game1.currentSeason == "winter")
+            else if (Game1.currentSeason == "winter" && Game1.dayOfMonth == 1)
             {
                 Game1.showGlobalMessage("It's winter. Don't forget to buy the seasonal Items");
             }
-            else if (Game1.currentSeason == "spring")
+            else if (Game1.currentSeason == "spring" && Game1.dayOfMonth == 1)
             {
                 Game1.showGlobalMessage("It's spring. Don't forget to buy the seasonal Items");
            }
